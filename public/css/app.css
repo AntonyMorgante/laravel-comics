@@ -1,0 +1,87 @@
+header .container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+header .container .space-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .container .space-between ul {
+  list-style-type: none;
+}
+
+header .container .space-between ul li {
+  display: inline-block;
+  padding: 0 10px;
+  text-transform: uppercase;
+}
+
+header .container .space-between ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+#jumbo {
+  height: 400px;
+  background-size: cover;
+  background-image: url(/images/jumbotron.jpg?1b0a3671766964a4114f90322970b124);
+}
+
+#comics {
+  background-color: #1c1c1c;
+}
+
+.container {
+  max-width: 1170px;
+  margin: auto;
+  position: relative;
+  top: -15px;
+}
+
+.container .blue-banner,
+.container .blue-button {
+  background-color: #0282f9;
+  display: inline-block;
+  color: white;
+  text-transform: uppercase;
+  width: 200px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.container .blue-button {
+  font-size: 15px;
+  margin-left: calc(50% - 100px);
+  margin-bottom: 20px;
+}
+
+.container .flex-start {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  color: white;
+  font-size: 30px;
+}
+
+.comic {
+  flex-basis: 16.6666666667%;
+  text-align: start;
+  padding-bottom: 20px;
+}
+
+.comic img {
+  width: 90%;
+}
+
+.comic p {
+  width: 90%;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+

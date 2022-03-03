@@ -1,0 +1,53 @@
+footer .container{
+    max-width:1170px;
+    margin: auto;
+  }
+
+  .fst-foot-section{
+    background-color: rgb(2,130,249);
+    padding: 20px 0;
+  }
+
+  .snd-foot-section{
+    background-image: url("../assets/footer-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    color: white;
+
+    .flex-column{
+      display:flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      height: 300px;
+      align-content: flex-start;
+    }
+  }
+
+  .trd-foot-section{
+    background-color: rgb(48,48,48);
+
+    .blue-button{
+      border: solid 1px rgb(2,130,249);
+      display: inline-block;
+      color:white;
+      text-transform: uppercase;
+      text-decoration: none;
+      width:200px;
+      height: 35px;
+      line-height: 35px;
+      text-align: center;
+      margin:10px 0;
+    }
+
+    .space-between{
+      display:flex;
+      justify-content: space-between;
+      align-items: center;
+
+      span{
+        color:rgb(2,130,249);
+        text-transform: uppercase;
+      }
+    }
+  }
