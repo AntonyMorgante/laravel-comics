@@ -1,3 +1,10 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Avenir, Helvetica, sans-serif;
+}
+
 header .container {
   max-width: 1170px;
   margin: 0 auto;
@@ -29,6 +36,70 @@ header .container .space-between ul li a {
   height: 400px;
   background-size: cover;
   background-image: url(/images/jumbotron.jpg?1b0a3671766964a4114f90322970b124);
+}
+
+footer .container {
+  max-width: 1170px;
+  margin: auto;
+}
+
+.fst-foot-section {
+  background-color: #0282f9;
+  padding: 20px 0;
+}
+
+.snd-foot-section {
+  background-image: url(/images/footer-bg.jpg?dfd68d2946f211e1b678af05fd2f830b);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 20px;
+  color: white;
+}
+
+.snd-foot-section .flex-column {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 300px;
+  align-content: flex-start;
+}
+
+.trd-foot-section {
+  background-color: #303030;
+}
+
+.trd-foot-section .blue-button {
+  border: solid 1px #0282f9;
+  display: inline-block;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  width: 200px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.trd-foot-section .space-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.trd-foot-section .space-between span {
+  color: #0282f9;
+  text-transform: uppercase;
+}
+
+.socials {
+  list-style-type: none;
+  color: white;
+}
+
+.socials li {
+  display: inline-block;
+  padding: 0 10px;
 }
 
 #comics {

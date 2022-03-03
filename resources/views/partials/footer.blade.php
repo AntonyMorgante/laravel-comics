@@ -2,7 +2,9 @@
     <div>
         <section class="fst-foot-section">
         <div class="container">
-            <Feature />
+            <div class="space-around">
+                
+            </div>            
         </div>
         </section>
         <section class="snd-foot-section">
@@ -19,7 +21,9 @@
             <div>
             <div class="space-between">
                 <span>Follow us</span>
-                <div> <Social /> </div>
+                <div> 
+
+                </div>
             </div>
             </div>
         </div>

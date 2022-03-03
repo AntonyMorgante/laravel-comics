@@ -9,7 +9,7 @@ footer .container{
   }
 
   .snd-foot-section{
-    background-image: url("../assets/footer-bg.jpg");
+    background-image: url("../../../public/footer-bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     padding: 20px;
@@ -49,5 +49,15 @@ footer .container{
         color:rgb(2,130,249);
         text-transform: uppercase;
       }
+    }
+  }
+
+  .socials{
+    list-style-type : none;
+    color: white;
+
+    li{
+      display: inline-block;
+      padding: 0 10px;
     }
   }

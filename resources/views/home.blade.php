@@ -7,7 +7,7 @@
         <div class="container">
             <div class="blue-banner">Current series</div>
             <div class="flex-start">
-                @foreach ($comics as $indice=>$album)
+                @foreach ($comics as $index=>$album)
                     <div class="comic">
                         <img src="{{$album['thumb']}}" alt="">
                         <p>{{$album["series"]}}</p>
